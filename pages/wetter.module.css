@@ -1,0 +1,33 @@
+.wettercontainer {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    color: rgb(27, 39, 9);
+    font-size: 200%;
+  }
+  .wettercontainer h1 {
+    font-size: 300%; 
+    line-height: 100%;
+  }
+  .wetter-container button {
+    /* Your button styles here */
+    font-size: 500%;
+    padding: 250px 350px;
+    margin-top: 10%;
+    background-color: rgb(47, 255, 151);
+    color: rgb(0, 141, 35);
+    border-radius: 100px;
+    box-shadow: 0 0 20px 0 rgb(18, 218, 0);
+    /* Add other styles as needed */
+  }
+  .wetter-container button:hover {
+    background-color: #00634e; /* Change background color on hover */
+    box-shadow: 0 0 20px 0 rgb(18, 218, 0) inset;
+    /* Add other hover styles as needed */
+  }
+  #created-by {
+    color: rgb(211, 211, 211);
+    line-height: 200%;
+  }
