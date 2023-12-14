@@ -2,7 +2,6 @@
 import { Button } from "@/components/ui/button"
 import MyLayout from '../app/layout';
 import Link from 'next/link';
-import styles from '../app/globals.css'
 
 export default function Home() {
   const handleButtonClick = () => {
@@ -22,9 +21,9 @@ export default function Home() {
           <Button
             variant="outline"
             style={{
-              fontSize: '3vw', // Adjust as needed
-              padding: '3vw 3vw', // Adjust as needed
-              marginTop: '5vw', // Adjust as needed
+              fontSize: '2vw', // Adjust as needed
+              padding: '2vw 2vw', // Adjust as needed
+              marginTop: '1vw', // Adjust as needed
               backgroundColor: 'transparent',
               borderRadius: '3vw', // Adjust as needed
               color: '#d0d0d0',

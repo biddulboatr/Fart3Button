@@ -1,4 +1,4 @@
-//index.js
+//wetter.js
 import { Button } from "@/components/ui/button"
 import MyLayout from '../app/layout';
 import styles from './wetter.module.css';
@@ -13,18 +13,22 @@ export default function Home() {
 
   return (
     <MyLayout>
-      <div className={styles['wetter-container']}>
+      <div>
         <h1>Fart NOW</h1>
         <p>Click to fart wetly</p>
-        <Button onClick={handleButtonClick}>FART</Button>
+        <Button 
+        style={{
+            backgroundColor: 'rgb(47, 255, 151)'
+          }}
+        onClick={handleButtonClick}>FART</Button>
         <p id="created-by">Created by buildaboat373</p>
         <Link href="/">
           <Button
             variant="outline"
             style={{
-              fontSize: '3vw', // Adjust as needed
-              padding: '3vw 3vw', // Adjust as needed
-              marginTop: '5vw', // Adjust as needed
+              fontSize: '2vw', // Adjust as needed
+              padding: '2vw 3vw', // Adjust as needed
+              marginTop: '1vw', // Adjust as needed
               backgroundColor: 'transparent',
               borderRadius: '3vw', // Adjust as needed
               color: '#d0d0d0',

@@ -76,37 +76,42 @@
   body {
     @apply bg-background text-foreground;
   }
-  .centered-container {
+ .centered-container {
     display: flex;
-    margin-top: 5%;
+    margin-top: 2vw;
     justify-content: center;
     min-height: 100vh;
     text-align: center;
     color: greenyellow;
-    font-size: 200%;
+    font-size: 2vw; /* Adjust the value based on your preference */
   }
+  
   .centered-container h1 {
-    font-size: 300%; 
+    font-size: 7vw; 
     line-height: 100%;
   }
+  
   .centered-container button {
     /* Your button styles here */
-    font-size: 500%;
-    padding: 250px 350px;
-    margin-top: 10%;
+    font-size: 5vw;
+    padding: 8vw 10vw; /* Adjust the values based on your preference */
+    margin-top: 2vw;
     background-color: greenyellow;
     color: rgb(0, 141, 35);
     border-radius: 100px;
-    box-shadow: 0 0 20px 0 rgb(18, 218, 0);
+    box-shadow: 0 0 2vw 0 rgb(18, 218, 0);
     /* Add other styles as needed */
   }
+  
   .centered-container button:hover {
     background-color: #006319; /* Change background color on hover */
-    box-shadow: 0 0 20px 0 rgb(18, 218, 0) inset;
+    box-shadow: 0 0 2vw 0 rgb(18, 218, 0) inset;
     /* Add other hover styles as needed */
   }
+  
   #created-by {
     color: rgb(211, 211, 211);
-    line-height: 200%;
+    font-size: 1vw;
+    line-height: 300%;
   }
 }
