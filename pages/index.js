@@ -18,18 +18,7 @@ export default function Home() {
         <Button onClick={handleButtonClick}>FART</Button>
         <p id="created-by">Created by buildaboat373</p>
         <Link href="/wetter">
-          <Button
-            variant="outline"
-            style={{
-              fontSize: '2vw', // Adjust as needed
-              padding: '2vw 2vw', // Adjust as needed
-              marginTop: '1vw', // Adjust as needed
-              backgroundColor: 'transparent',
-              borderRadius: '3vw', // Adjust as needed
-              color: '#d0d0d0',
-              boxShadow: '0 0 10px 0 rgb(0, 20, 0)',
-            }}
-          >Go to Wetter Page</Button>
+          <Button id="bottom-button" variant="outline">Go to Wetter Page</Button>
         </Link>
       </div>
     </MyLayout>
